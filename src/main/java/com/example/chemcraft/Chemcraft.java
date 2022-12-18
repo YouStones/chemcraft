@@ -17,7 +17,7 @@ public class Chemcraft
 {
     public static final String MODID = "chemcraft";
     // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public Chemcraft()
     {
