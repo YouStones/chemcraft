@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Chemcraft.MODID);
-    public static final RegistryObject<Item> HYDROGEN = Registration.ITEMS.register("hydrogen",
+    public static final RegistryObject<Item> HYDROGEN = ITEMS.register("hydrogen",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
     public static void register(IEventBus eventBus) {
